@@ -24,6 +24,7 @@ h1 {
 
 h2 {
 	font-size: 1.75em;
+	
 }
 
 h3 {
@@ -31,11 +32,15 @@ h3 {
 }
 
 p {
-	
+	font-size:.8rem;
 }
 
 .album-art {
-
+	width:15%;
+	padding:1rem;
+	border: 1px solid red;
+	float:left;
+	margin-right: 2rem;
 }
 
 .clear {
@@ -43,35 +48,45 @@ p {
 }
 
 .image-electronics, .image-stage-effects {
-	
+	width:20%;
+	border: 1px red solid;
+	padding: 1rem;
+	float: left;
+	margin-right:1rem;
 }
 
 .record-label {
-
+	color:red;
+	font-style:italic;
 }
 
 .track-list {
-
+ padding:1rem;
 }
 
 #about-photo {
 	width: 25%;
 	border: 1px red solid;
+	float:left;
+	margin-right: 1rem;
+	padding:1rem;
 }
 
 #copyright {
-
+ color:red;
 }
 
 #section-about, #section-discography, #section-equipment {
  border: 1px red solid;
- margin: 10px 0;
- padding-left: 5%;
+ margin: 1rem;
+ padding: 2rem;
+ 
 }
 
 #text-intro {
 	border:2px red solid;
-	padding: 15px 5px;
+	padding: 1rem;
 	background-color: rgb(65, 65, 65);
 	color:red;
+	margin:1rem;
 }
